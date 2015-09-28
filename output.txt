@@ -1,0 +1,7 @@
+.gitkeep
+challange.html
+game.html
+games.html
+loading.html
+login.html
+register.html

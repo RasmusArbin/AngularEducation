@@ -1,0 +1,9 @@
+[user]
+	name = Rasmus Jonasson
+	email = rasmus.jonasson91@gmail.com
+[mergetool "p4merge"]
+	cmd = p4merge.exe \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
