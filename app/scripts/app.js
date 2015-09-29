@@ -21,13 +21,11 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/games.html',
-        controller: 'GamesCtrl',
-        controllerAs: 'main'
+        controller: 'GamesCtrl'
       })
       .when('/createGame', {
         templateUrl: 'views/createGame.html',
-        controller: 'CreateGameCtrl',
-        controllerAs: 'about'
+        controller: 'CreateGameCtrl'
       })
       .otherwise({
         redirectTo: '/'
