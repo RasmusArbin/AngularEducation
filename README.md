@@ -1,12 +1,3 @@
-# angular-education
+# AngularEducation
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
-
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+This is built for one of my internal Angular educations. The education was split into frontend and backend and this project is the frontend part. The aim of the project is to show the fundamentals of Angular. The app contains a simple feature for adding a game with a name and to list them.
